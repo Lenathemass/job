@@ -91,7 +91,7 @@ export default function Navbar() {
                   to="/signup"
                   className="bg-[#e60023] hover:bg-[#ad081b] text-white px-5 py-2 rounded-full font-semibold transition-all shadow-md hover:shadow-lg active:scale-95"
                 >
-                  Sign up
+                  Register
                 </Link>
               </>
             )}

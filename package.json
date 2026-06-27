@@ -1,0 +1,27 @@
+{
+  "name": "job",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lenathemass/job.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Lenathemass/job/issues"
+  },
+  "homepage": "https://github.com/Lenathemass/job#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
